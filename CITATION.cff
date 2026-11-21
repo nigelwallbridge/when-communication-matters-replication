@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this replication package when using the code."
+title: "When Communication Matters: Quantifying Communicative Value"
+type: software
+authors:
+  - family-names: Wallbridge
+    given-names: Nigel
+  - family-names: Wallbridge
+    given-names: Sarenne
+version: "1.0.0"
+repository-code: "https://github.com/nigelwallbridge/when-communication-matters-replication"
+abstract: "Replication code and numerical analysis for manuscript version 21."
+license: MIT
