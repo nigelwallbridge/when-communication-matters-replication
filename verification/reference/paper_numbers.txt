@@ -1,0 +1,34 @@
+SECTION 2: SINGLE DECISION
+  2.00                         Table 1 caption, Expansive dN                  paper: 2
+  0.20                         Table 1 caption, Cautious dN                   paper: 0.2
+  6.44                         Fig. 1, Sec. 2(d), S1: prior crossover         paper: 6.44
+  12.2                         Fig. 1, S1: maximum of strategic stakes        paper: 12.2
+  0.647 / 0.551                Sec. 2(c), S2: posteriors after F / U          paper: 0.647 / 0.551
+  (5.18, 9.51)                 Sec. 2(d), Fig. 2, S2: decisive window         paper: (5.18, 9.51)
+  0.613                        Sec. 3(vii): belief needed at N = 6            paper: (reasoning: 0.60 < threshold < 0.647)
+  Cautious -> Expansive        Sec. 3(vii): favourable report at N = 6        paper: Cautious -> Expansive
+
+SECTION 5(a): INFORMATION VS VALUE
+  0.0069 bits                  accuracy 0.55 source                           paper: about 0.007 bits
+  0.050                        value at the crossover (log units)             paper: about 0.05
+  0.33                         certainty equivalent at crossover              paper: about 0.3 units of resource
+  0.181 bits                   accuracy 0.75 source                           paper: 0.18 bits
+  26x                          ratio of the two                               paper: roughly 25 times
+  60%                          receiver's prior-only accuracy                 paper: 60%
+
+SECTION 4: REPEATED DECISIONS (exact)
+  [6, 7, 8, 9]                 states where communication can act             paper: N = 6, 7, 8 and 9
+  0.017 to 0.166               survival gain over initial states              paper: up to 0.17 (positive at every state)
+  True                         each channel alone helps; both best            paper: Fig. 3a dashed lines
+  0.41 -> 0.27                 P(ever ruined) from N0 = 5                     paper: 0.41 -> 0.27
+  0.592 -> 0.734               survival at T = 50 from N0 = 5                 paper: (Fig. 3a)
+  63% / 46% / 30% / 15% / 8%   direct share, T = 5/10/20/50/100               paper: 63% / 46% / 30% / 15% / 8%
+
+SUPPLEMENTARY NOTE S4: RUIN DEFINED AS N <= 4
+  0.03 to 0.31                 survival gain, N0 = 5-20                       paper: 0.03-0.31
+  8% to 13%                    direct share at T = 50                         paper: 8-13%
+
+OPTIONAL MONTE CARLO VALIDATION
+  0.141 vs 0.145 +/- 0.005     survival gain, N0 = 5, R = 0.70: exact vs MC   paper: 0.141 vs 0.145 +/- 0.005
+  -0.205 vs -0.205 +/- 0.006   survival gain, R = 0.30 (N0 = 5): exact vs MC  paper: -0.205 vs -0.205 +/- 0.006
+  0.040 vs 0.038 +/- 0.003     survival gain, N0 = 1, R = 0.70: exact vs MC   paper: 0.040 vs 0.038 +/- 0.003
