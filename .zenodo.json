@@ -1,0 +1,21 @@
+{
+  "title": "When Communication Matters: Quantifying Communicative Value",
+  "description": "Replication code and numerical analysis for manuscript version 21, including the exact repeated-decision results, Figure 3 and independent verification.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Wallbridge, Nigel"
+    },
+    {
+      "name": "Wallbridge, Sarenne"
+    }
+  ],
+  "version": "1.0.0",
+  "keywords": [
+    "communicative value",
+    "Markov chains",
+    "risk of ruin",
+    "reproducibility"
+  ],
+  "license": "mit"
+}
